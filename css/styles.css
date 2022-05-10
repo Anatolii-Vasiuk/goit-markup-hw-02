@@ -1,0 +1,113 @@
+/* первичный цвет заголовков     #212121 */
+
+/*первичный цвет текста #757575 */
+
+/* голубой фоновый #2196F3 */
+
+/* серый фон #2F303A */
+
+
+:root {
+    --primary-header-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --secondary-bg-color: #2F303A;
+}
+
+body {
+    background-color: #ffffff;
+    color: #757575;
+}
+
+h1, h2, h3 {
+    color: var(--primary-header-color);
+}
+
+header {
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: black;
+}
+
+.logo-part {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav a {
+    color: var(--primary-header-color);
+}
+
+/* contacts */
+.contacts a {
+    color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.email:hover,
+.email:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+.hero-title {    
+    color: #ffffff;
+}
+.hero-button {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+/* section */
+
+.section-title {
+}
+
+/* advantages */
+.advantages-title {
+}
+
+/*  team */
+.team {
+    background-color: #F5F4FA;
+}
+
+/* button */
+.button {
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.list .button {
+    background-color: #F5F4FA;
+    color: var(--primary-header-color);
+}
+.list .button:hover,
+.list .button:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+/* footer */
+.adress {
+    background-color: var(--secondary-bg-color);
+}
+
+.adress a{
+    color: #ffffff;
+}
+
+.site-nav .current {
+    color: var(--accent-color);
+}
