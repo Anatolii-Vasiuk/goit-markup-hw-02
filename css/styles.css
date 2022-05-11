@@ -17,13 +17,15 @@
 body {
     background-color: #ffffff;
     color: #757575;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+a {
+text-decoration: none;
 }
 
 h1, h2, h3 {
     color: var(--primary-header-color);
-}
-
-header {
 }
 
 .list {
@@ -32,6 +34,11 @@ header {
 
 .logo {
     color: black;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    font-weight: 700;
 }
 
 .logo-part {
@@ -42,17 +49,27 @@ header {
 
 .site-nav a {
     color: var(--primary-header-color);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 /* contacts */
 .contacts a {
     color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .site-nav a:hover,
 .site-nav a:focus,
-.email:hover,
-.email:focus {
+.contacts a:hover,
+.contacts a:focus,
+.transp span:hover,
+.transp span:focus {
     color: var(--accent-color);
 }
 
@@ -63,24 +80,21 @@ header {
 
 .hero-title {    
     color: #ffffff;
+    font-weight: 900;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-size: 44px;
 }
 .hero-button {
     background-color: var(--accent-color);
     color: #ffffff;
-}
-
-/* section */
-
-.section-title {
-}
-
-/* advantages */
-.advantages-title {
-}
-
-/*  team */
-.team {
-    background-color: #F5F4FA;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    font-weight: 700;
 }
 
 /* button */
@@ -92,11 +106,67 @@ header {
 .list .button {
     background-color: #F5F4FA;
     color: var(--primary-header-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
 }
+
 .list .button:hover,
 .list .button:focus {
     background-color: var(--accent-color);
     color: #ffffff;
+}
+
+/* section */
+
+.section-title-hidden {
+    visibility: hidden;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* advantages */
+.advantages-title {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.advantages-items {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/*  team */
+.team {
+    background-color: #F5F4FA;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* potfolio */
+/* works */
+
+.works-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.works-type {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -110,4 +180,8 @@ header {
 
 .site-nav .current {
     color: var(--accent-color);
+}
+
+.transp span{
+    color: rgba(255, 255, 255, 0.6);
 }
