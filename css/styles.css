@@ -34,7 +34,7 @@ h1, h2, h3 {
 
 .logo {
     color: black;
-    font-family: 'Raleway';
+    font-family: "Raleway", "Proxima Nova", sans-serif;
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
